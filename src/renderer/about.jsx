@@ -13,7 +13,7 @@ const AboutElement = () => (
         /></div>
         <div className={styles.aboutText}>
             <h2>{productName}</h2>
-            Version {version}
+            Verssion {version}
             <table className={styles.aboutDetails}><tbody>
                 {
                     ['Electron', 'Chrome', 'Node'].map(component => {
